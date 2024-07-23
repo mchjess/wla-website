@@ -10,40 +10,48 @@ body {
 header {
     background-color: rgba(0, 0, 0, 0.7); /* Add transparency */
     color: white;
-    padding: 10px 0;
-    text-align: center;
+    text-align: right;
+    font-size: 1em;
+    padding-right: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 nav {
+
     background-color: rgba(0, 0, 0, 0.7); /* Add transparency */
     overflow: hidden;
+    font-size: 2em;
 }
 
 nav a {
-    float: left;
-    display: block;
+    
+    display: grid;
+    size: 12em;
     color: white;
-    text-align: center;
-    padding: 14px 16px;
+    text-align: right;
+    padding: 16px 18px;
     text-decoration: none;
+   
 }
 
 nav a:hover {
-    background-color: #ddd;
+    background-color: #e62525;
     color: black;
 }
 
 .container {
-    padding: 20px;
+    padding: 10px;
     background-color: rgba(255, 255, 255, 0.8); /* Add a light background with some transparency */
 }
 
 .footer {
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     background-color: #333;
     color: white;
     position: absolute;
     bottom: 0;
     width: 100%;
+    font-size: .7em;
 }
