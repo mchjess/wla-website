@@ -29,7 +29,7 @@ nav a {
     display: grid;
     size: 12em;
     color: white;
-    text-align: right;
+    text-align: left;
     padding: 16px 18px;
     text-decoration: none;
    
@@ -40,9 +40,28 @@ nav a:hover {
     color: black;
 }
 
+
+.container a {
+    
+    display: grid;
+    size: 12em;
+    color: black;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+   
+}
+
+.container a:hover {
+    background-color: #e62525;
+    color: black;
+}
+
 .container {
-    padding: 10px;
+    padding: 150px;
     background-color: rgba(255, 255, 255, 0.8); /* Add a light background with some transparency */
+    font-size: 2em;
+    color: black;
 }
 
 .footer {
